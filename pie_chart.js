@@ -29,3 +29,12 @@ var char2 = c3.generate({
         
     }
 });
+
+function openWin(){
+
+    var printHead="This is only for print";
+
+    document.getElementById("textinPrint").innerHTML=printHead;
+    window.print("");    
+
+}
